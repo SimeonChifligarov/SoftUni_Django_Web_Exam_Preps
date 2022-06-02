@@ -2,7 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-&@c6f06m!*)=15*uax3m^p^iy(t$ah4szbn_*#02p43z6#d4^#'
+SECRET_KEY = '******************************************************************'
 
 DEBUG = True
 
@@ -56,9 +56,9 @@ WSGI_APPLICATION = 'exam_prep_001.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'real_prep_db',
-        'USER': 'postgres',
-        'PASSWORD': 'BEPostgreS88',
+        'NAME': '************',
+        'USER': '************',
+        'PASSWORD': '************',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
